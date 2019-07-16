@@ -2,12 +2,18 @@ html,body{
 	box-sizing: border-box;
 	margin:0 auto;
 }
+#whitewrapper{
+	background: url(../img/bg.jpg);
+	background-position: top center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
 .top_outer{
 	background: #000;
 }
 .top_section{
 	display: grid;
-	width: 1024px;
+	width: 1145px;
 	margin: 0 auto;
 	grid-template-columns: 0.7fr 1fr 1fr;
 	padding: 10px;
@@ -50,7 +56,7 @@ html,body{
 
 .top_ad{
 	display: grid;
-	width: 1024px;
+	width: 1145px;
 	grid-template-columns: 1fr;
 	margin: 0 auto;
 }
@@ -59,30 +65,38 @@ html,body{
 	padding: 10px 0 10px 0;
 }
 
+.alt_container{
+	width: 1145px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 15px;
+}
 .main_section{
 	display:grid;
-	width: 1024px;
+	width: 1145px;
 	margin: 0 auto;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 617px 1fr;
 }
 .left_bar img{
-	width: 100%;
-	/*padding: 0px 50px 0px 0px;*/
+	
 }
 
 .right_bar{
+	display: grid;
 	grid-template-rows: 1fr 1fr;
 	margin: 0 auto;
+	grid-gap: 16px;
+}
+.right_bar img {
+    width: 526px !important;
 }
 .top {
 	margin: 0 auto;
-	height: 80%;
 	width: 100%;
 	padding: 0px 20px 5px 0px;
 }
 .bottom{
 	margin: 0 auto;
-	height: 80%;
 	width: 100%;
 	padding: 0px 50px 10px 0px;
 }
@@ -90,7 +104,36 @@ html,body{
 	width: 100%;
 }
 
-
+.block_title {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Oswald;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: bold;
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+}
+.entry_title h3{
+	font-family: Oswald;
+	font-size: 16px;
+	color: #282A2A;
+	line-height: 125%;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	top: 11px;
+	position: relative;
+	left: 10px;
+}
 
 
 
