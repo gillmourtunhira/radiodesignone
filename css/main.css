@@ -1,3 +1,60 @@
 html,body{
 	box-sizing: border-box;
+	margin:0 auto;
+}
+.top_outer{
+	background: #000;
+}
+.top_section{
+	display: grid;
+	width: 1024px;
+	margin: 0 auto;
+	grid-template-columns: 0.7fr 1fr 1fr;
+	padding: 10px;
+}
+.logo{
+	
+}
+.top_menu{
+	color: white;
+}
+.stream{
+	
+}
+.stream ul li{
+	display: inline;
+	color: white;
+	margin: 0 5px;
+}
+
+.top_menu ul li{
+	display: inline;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+	letter-spacing: 1px;
+	margin-top: 3px;
+	text-transform: uppercase;
+}
+.top_social{
+	/*float: right;*/
+	margin: 0px;
+}
+.stream ul li:first-child{
+	background: red;
+}
+
+.top_ad{
+	display: grid;
+	width: 1024px;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+}
+.top_ad img{
+	margin: inherit;
+	padding: 10px 0 10px 0;
 }
