@@ -58,3 +58,65 @@ html,body{
 	margin: inherit;
 	padding: 10px 0 10px 0;
 }
+
+.main_section{
+	display:grid;
+	width: 1024px;
+	margin: 0 auto;
+	grid-template-columns: 1fr 1fr;
+}
+.left_bar img{
+	width: 100%;
+	/*padding: 0px 50px 0px 0px;*/
+}
+
+.right_bar{
+	grid-template-rows: 1fr 1fr;
+	margin: 0 auto;
+}
+.top {
+	margin: 0 auto;
+	height: 80%;
+	width: 100%;
+	padding: 0px 20px 5px 0px;
+}
+.bottom{
+	margin: 0 auto;
+	height: 80%;
+	width: 100%;
+	padding: 0px 50px 10px 0px;
+}
+.top .bottom img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
