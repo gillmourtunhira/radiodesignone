@@ -3,13 +3,10 @@ html,body{
 	margin:0 auto;
 }
 #whitewrapper{
-	background: url(../img/bg.jpg);
-	background-position: top center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background: url(../img/17999432224217782291.gif) 50% -220% no-repeat;
 }
 .top_outer{
-	background: #000;
+	background: #268ec1;
 }
 .top_section{
 	display: grid;
@@ -17,9 +14,11 @@ html,body{
 	margin: 0 auto;
 	grid-template-columns: 0.7fr 1fr 1fr;
 	padding: 10px;
+	align-items: center;
 }
-.logo{
-	
+.logo img{
+	width: 65%;
+	height: auto;
 }
 .top_menu{
 	color: white;
@@ -59,6 +58,7 @@ html,body{
 	width: 1145px;
 	grid-template-columns: 1fr;
 	margin: 0 auto;
+	padding: 35px;
 }
 .top_ad img{
 	margin: inherit;
@@ -68,8 +68,8 @@ html,body{
 .alt_container{
 	width: 1145px;
 	margin: 0 auto;
-	background: #fff;
-	padding: 15px;
+	background: #0000;
+	padding: 15px 15px 15px 15px;
 }
 .main_section{
 	display:grid;
