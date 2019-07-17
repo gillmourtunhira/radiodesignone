@@ -77,8 +77,9 @@ html,body{
 	margin: 0 auto;
 	grid-template-columns: 617px 1fr;
 }
-.left_bar img{
-	
+.left_bar img {
+    /*width: 100%;*/
+    height: auto;
 }
 
 .right_bar{
