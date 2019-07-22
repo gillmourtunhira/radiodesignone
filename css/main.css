@@ -175,13 +175,115 @@ html,body{
 	grid-template-rows: 1fr 1fr;
 	grid-gap: 5px;
 }
-.podcasts img{
+.podcasts video{
 	width: 100%;
 	height: auto;
 }
 .podcasts div:first-child{
 	grid-column: 1 / 5;
 	grid-row: 1 / 3;
+}
+
+.first_bottom{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.news_list{
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #df2028;
+}
+.news_list img{
+	width: 100%;
+	height: auto;
+}
+.news_list h4{
+	font-family: Oswald;
+	font-weight: normal;
+	margin-top: 0px;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+.news_list time{
+	color: #A5A9A9;
+	font-size: 16px;
+	font-family: Open Sans;
+}
+.news_list p{
+	margin-bottom: 0px;
+	color: #616565;
+	line-height: 150%;
+	font-size: 16px;
+	font-family: "Segoe UI",Roboto;
+}
+.ad_bottom_first {
+    text-align: center;
+    margin: 20px;
+}
+.ad_bottom_second{
+	text-align: center;
+    margin: 20px;
+}
+.schedule{
+	width: 100%;
+	position: relative;
+}
+.schedule img{
+	width: 100%;
+	height: auto;
+}
+.schedule ul{
+	padding-left: 0px;
+}
+.schedule ul li{
+	list-style: none;
+	font: bold 15px Arial;
+	word-spacing: 2px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #006496;
+	padding-bottom: 5px;
+}
+.presenter_details{
+	position: absolute;
+	bottom: 126px;
+	background: red;
+	width: 100%;
+	height: 40%;
+}
+.presenter_details div{
+	padding: 70px;
+	font-family: Oswald;
+	font-weight: normal;
+	font-size: 28px;
+	color: #fff;
+	background: url(../img/mic.png) 0% 35% no-repeat;
+}
+.presenter_details span{
+	/*background: url(../img/mic.png) 50% 50% no-repeat;*/
+}
+.ad_top_side{
+	text-align: center;
+}
+.right_middle ul{
+	padding-left: 0px;
+}
+.right_middle ul li{
+	list-style: none;
+	margin-bottom: 20px;
+	font-family: Oswald;
+	font-weight: normal;
+	word-wrap: break-word;
+}
+.right_middle span{
+	font-family: Oswald;
+	font-weight: normal;
+	background: #000;
+    color: #fff;
+    margin-right: 10px;
+    padding: 5px;
 }
 /*End Middle Content CSS*/
 
