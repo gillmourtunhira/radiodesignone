@@ -144,7 +144,7 @@ html,body{
 	width: 1145px;
 	margin: 0 auto;
 	grid-template-columns: 2fr 1fr;
-	grid-gap: 5px;
+	grid-gap: 10px;
 }
 .left_content{
 
@@ -286,6 +286,75 @@ html,body{
     padding: 5px;
 }
 /*End Middle Content CSS*/
+
+/*Footer Content CSS*/
+footer{
+	width: 100%;
+	background: red;
+	height: auto;
+}
+.alt_footer{
+	display: grid;
+	width: 1145px;
+	margin: 0 auto;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 30px;
+	grid-gap: 20px;
+}
+.station_logo img{
+	width: 60%;
+	height: auto;
+}
+.alt_footer h3{
+	font-family: Oswald;
+	text-align: left;
+	color: #282A2A;
+	margin-top: 0px;
+	border-bottom: 1px solid #000;
+}
+.other_links ul{
+	padding-left: 0px;
+}
+.other_links ul li{
+	list-style: none;
+	line-height: 150%;
+	font-size: 16px;
+	font-family: "Segoe UI",Roboto;
+}
+.subscribe input{
+	border: none;
+	border-bottom: 3px solid #fff;
+	width: 100%;
+	height: 28px;
+	background: #0000;
+	margin-bottom: 5px;
+}
+.sub_button {
+    width: 100%;
+    background: #000;
+    padding: 8px;
+    border: none;
+    border-radius: 1px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+.sub_button:hover{
+	background: #268ec1;
+}
+.social_links ul{
+	padding-left: 0px;
+}
+.social_links ul li{
+	list-style: none;
+	display: inline;
+	margin: 0 5px;
+}
+/*End Footer Content CSS*/
+.weather_widget {
+    text-align: center;
+}
 
 
 
